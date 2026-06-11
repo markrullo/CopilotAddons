@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark CoPilot Addons</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Mark CoPilot Addons">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo">Mark CoPilot Addons</a>
+            <a href="https://github.com/markrullo/CopilotAddons" class="nav-link" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- <section class="hero">
+            <h1>The right model<br>for the <span class="accent-coral">right job</span></h1>
+            <p class="hero-sub">A multi-agent orchestration framework for VS Code that researches your codebase, builds a phased plan, and delegates work to specialist subagents running in parallel. Claude Sonnet 4.6 orchestrates. Claude Opus 4.6 plans and designs. GPT-5.3-Codex writes the code. One prompt is all it takes.</p>
+            <img src="https://img.shields.io/badge/-Built%20with%20Copilot-fafbfc?style=flat&logo=githubcopilot&logoColor=333333" alt="Built with Copilot">
+            <a href="#install" class="btn btn-primary">Install Agents</a>
+        </section> -->
+
+
+        <section class="install" id="install">
+            <h2>Get Started</h2>
+            <p class="install-sub">Install all four agents in a single step using the Agent Plugin format.</p>
+
+            <div class="plugin-install">
+                <div class="plugin-install-steps">
+                    <div class="plugin-step">
+                        <span class="plugin-step-num">1</span>
+                        <span class="plugin-step-text">Open the VS Code Command Palette <kbd>⌘⇧P</kbd> and run <strong>Chat: Install Plugin From Source</strong></span>
+                    </div>
+                    <div class="plugin-step">
+                        <span class="plugin-step-num">2</span>
+                        <span class="plugin-step-text">Paste the URL and press Enter:</span>
+                    </div>
+                    <div class="plugin-url-row">
+                        <code class="plugin-url" id="plugin-url">https://github.com/markrullo/CopilotAddons</code>
+                        <button class="btn btn-outline btn-sm copy-btn" onclick="navigator.clipboard.writeText('https://github.com/markrullo/CopilotAddons').then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',2000)})">Copy</button>
+                    </div>
+                    <div class="plugin-step">
+                        <span class="plugin-step-num">3</span>
+                        <span class="plugin-step-text">All agents install in one step. 🎉</span>
+                    </div>
+                </div>
+                <div class="plugin-settings-note">
+                    <strong>Required VS Code settings:</strong>
+                    <ul>
+                        <li><code>chat.plugins.enabled</code></li>
+                        <!-- <li><code>chat.subagents.allowInvocationsFromSubagents</code></li> -->
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built by <a href="https://postrboard.com" target="_blank" rel="noopener">Burke Holland</a></p>
+    </footer>
+
+</body>
+</html>
