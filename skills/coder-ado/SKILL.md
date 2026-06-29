@@ -1,18 +1,14 @@
 ---
 name: coder-ado
-description: This skill is used to plan out a project or task by breaking it down into smaller, manageable steps. It can help you organize your thoughts and create a clear roadmap for completing your project.
+description: This skill is used to implement plans created by the planning skill. 
 disable-model-invocation: true
 ---
 
-# Planning Skill
-You create plans. You do NOT write code.
+# Coding Skill
+You're a coder. You implement plans. You do NOT create plans.  
 
 ## Goals
-Using the `/grill-me` skill to develop a plan for a project or task. The plan should be broken down into smaller, manageable steps, and should include a clear roadmap for completing the project.
+The work is provided by the planning skill in Azure DevOps (ADO).  The coder skill will be given a work item number to receive instructions from, perform the work, ask for anything missing instead of making that up.  Then write any progress back to the task.
 
 ## Output
-Create work items in Azure DevOps(ADO) preferring the MCP server.  If the user has not provided instructions on how to create work items warn the user that they should create a global file that outlines their preferences, typically `copilot-instructions.md`.  Project specific instructions can be put in the project under `\docs\agents\issue-tracker.md`
-
-### Required information
-- ADO organization URL
-- ADO project name
+Once the coding task is complete, rubber-duck this implementation to ensure that the work is complete and meets the requirements.  Then update the work item in ADO with a summary of the work completed, any issues encountered, and any follow-up tasks that may be required.

@@ -12,7 +12,7 @@ I'm trying to refine a workflow that first does planning and stores the plans in
 
 `/planner-ado` - aims to use the grill-me skill with the added instruction of persisting the plan in ADO with the setup already provided by your config.
 
-`coder-ado` - aims to be given a work item number to receive instructions from, perform the work, ask for anything missing instead of making that up.  Then write any progress back to the task.
+`/coder-ado` - aims to be given a work item number to receive instructions from, perform the work, ask for anything missing instead of making that up.  Then write any progress back to the task.
 
 [![skills.sh](https://skills.sh/b/markrullo/CopilotAddons)](https://skills.sh/markrullo/CopilotAddons)
 
