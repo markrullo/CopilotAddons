@@ -41,12 +41,12 @@ If required setup is missing or inconsistent, stop and ask instead of guessing.
 5. For each executable work item:
    - Move it to the appropriate active or in-progress state.
    - Read the requirements and linked context carefully.
-   - Implement the work and validate it for that item's scope.
-   - Rubber-duck the implementation for that item before closing it out.
+   - Implement the work and validate it for that item's scope.   
    - Update the work item with a summary of the completed work, any issues encountered, and any follow-up notes.
    - Link the commit and/or PR.
    - Commit once that work item is complete.
 6. If a work item cannot be completed, update ADO with the blocker and stop rather than committing partial work for that item.
+
 
 ## Output
 
