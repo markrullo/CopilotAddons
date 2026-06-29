@@ -10,9 +10,9 @@ I'm trying to refine a workflow that first does planning and stores the plans in
 
 `/setup-verification-ado` - this aims to verify the setup to ensure global and project instructions have already been provided.
 
-`/planner-ado` - aims to use the grill-me skill with the added instruction of persisting the plan in ADO with the setup already provided by your config.
+`/planner-ado` - aims to use the grill-me skill with the added instruction of persisting the plan in ADO with the setup already provided by your config, breaking higher-level work down into executable tasks.
 
-`/coder-ado` - aims to be given a work item number to receive instructions from, perform the work, ask for anything missing instead of making that up.  Then write any progress back to the task.
+`/coder-ado` - aims to implement existing ADO work items, discover child tasks when a higher-level item is supplied, follow dependency order, ask for missing information instead of inventing it, and write progress back to ADO as it works.
 
 [![skills.sh](https://skills.sh/b/markrullo/CopilotAddons)](https://skills.sh/markrullo/CopilotAddons)
 

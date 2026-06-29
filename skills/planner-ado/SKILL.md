@@ -13,6 +13,7 @@ This is to build on `/grill-me` to create a plan and then persist that plan in A
 ## Goals
 - Create a plan using the `/grill-me` skill to develop a plan for a project or task. 
 - The plan should be broken down into smaller, manageable steps, and should include a clear roadmap for completing the project.
+- When persisting the plan to ADO, prefer Feature -> User Story -> Task, and make sure User Stories are broken down into executable Tasks because the coding skill should implement Tasks and Bugs, not undecomposed higher-level items.
 - Ensure that all necessary information is gathered before proceeding with the plan.
 
 ## Process
