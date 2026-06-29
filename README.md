@@ -2,7 +2,11 @@
 
 I'm trying to refine a workflow that first does planning and stores the plans in Azure DevOps (ADO).  Then the coder skill will grab the ADO tasks, work on them, then update progress so the team can see what's going on.  I've encorporated the use of grill-me developed by  (Matt Pocock) [https://github.com/mattpocock/skills]
 
-[![skills.sh](https://skills.sh/b/markrullo/CopilotAddons)](https://skills.sh/markrullo/CopilotAddons)
+## Installation
+
+`npx skills@latest add markrullo/CopilotAddons`
+
+## Pieces
 
 `/setup-verification-ado` - this aims to verify the setup to ensure global and project instructions have already been provided.
 
@@ -10,7 +14,7 @@ I'm trying to refine a workflow that first does planning and stores the plans in
 
 `coder-ado` - aims to be given a work item number to receive instructions from, perform the work, ask for anything missing instead of making that up.  Then write any progress back to the task.
 
-
+[![skills.sh](https://skills.sh/b/markrullo/CopilotAddons)](https://skills.sh/markrullo/CopilotAddons)
 
 ## General setup
 
