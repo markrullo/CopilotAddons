@@ -18,7 +18,7 @@ This is to build on `/grill-me` to create a plan and then persist that plan in A
 
 ## Process
 - Before planning, ensure the required information is available.  If not, provide a warning to the user that they should create a global file that outlines their preferences, typically `copilot-instructions.md`.  Project specific instructions can be put in the project under `\docs\agents\issue-tracker.md`
-- Once there is consensus on the plan, before we proceed to Azure DevOps(ADO), ensure to rubber-duck the plan to ensure that it is complete and meets the requirements. 
+- Once there is consensus on the plan, before we proceed to Azure DevOps(ADO), ensure to rubber-duck the whole plan to ensure that it is complete and meets the requirements. 
 - Upon successful rubber-ducking, proceed to the output instructions.
 
 ## Output
