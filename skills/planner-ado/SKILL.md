@@ -22,7 +22,7 @@ This is to build on `/grill-me` to create a plan and then persist that plan in A
 - Upon successful rubber-ducking, proceed to the output instructions.
 
 ## Output
-Create work items in ADO preferring the MCP server. 
+Create work items in ADO preferring the MCP server. Ensure that items are create with proper dependencies clearly outlined so implementation can be done in the correct order.  If there are any issues with creating work items, provide a warning to the user and stop.  Do not create work items if there is any ambiguity or missing information.
 
 ### Required information
 - ADO organization URL
