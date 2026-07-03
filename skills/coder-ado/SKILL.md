@@ -32,7 +32,6 @@ If required setup is missing or inconsistent, stop and ask instead of guessing.
 - Prefer the ADO MCP server for reading and writing work items, comments, links, and related metadata.
 - Do not create new work items or absorb newly discovered scope unless the user explicitly asks. Report blockers, risks, and follow-up work back to ADO instead.
 
-Single feature branch; multiple task commits. Each commit must reference its task ID. No commits on main.2
 
 ## Branching & Commit Workflow
    Single Feature Branch Workflow  
