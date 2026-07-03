@@ -32,6 +32,20 @@ If required setup is missing or inconsistent, stop and ask instead of guessing.
 - Prefer the ADO MCP server for reading and writing work items, comments, links, and related metadata.
 - Do not create new work items or absorb newly discovered scope unless the user explicitly asks. Report blockers, risks, and follow-up work back to ADO instead.
 
+Single feature branch; multiple task commits. Each commit must reference its task ID. No commits on main.2
+
+## Branching & Commit Workflow
+   Single Feature Branch Workflow  
+      For each feature, create exactly one feature branch before beginning any development work. The branch name must include the feature identifier and a short descriptive slug 
+      (e.g., 1) feature/F123-user-permissions). This branch represents the entire feature and remains the sole branch for all related development activity.
+
+   Task-Level Commits  
+      All tasks belonging to the feature must commit to this same feature branch. Each commit must reference: the task ID being addressed, and the feature the task belongs to.
+      Commits must be pushed to the feature branch as work progresses. No additional branches may be created for individual tasks.
+
+   Main Branch Protection  
+      No commits may be made directly to main under any circumstances. All work must flow through the feature branch and later be merged via a pull request.
+
 ## Process
 
 1. Verify the ADO organization, project, and any available instructions before coding.
