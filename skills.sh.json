@@ -1,0 +1,17 @@
+{
+	"$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+	"notGrouped": "bottom",
+	"groupings": [
+		{
+			"title": "All Skills",
+			"description": "All skills from Mark Rullo",
+			"skills": [
+				"coder-ado",
+				"planner",
+				"planner-ado",
+				"setup-verification-ado",
+				"write-to-ado"
+			]
+		}
+	]
+}
