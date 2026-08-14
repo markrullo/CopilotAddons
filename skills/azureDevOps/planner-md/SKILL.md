@@ -4,6 +4,9 @@ description: This skill is used to plan out a project or task by breaking it dow
 disable-model-invocation: true
 ---
 
+# How to use and Model to use
+Spin off a subagent to perform this work. Ideally use GPT-5.6 Luna for the subagent.
+
 # Planning Skill
 You create plans. You do NOT write code.
 
