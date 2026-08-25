@@ -1,7 +1,6 @@
 ---
 name: coder-ado
 description: Implements Azure DevOps work items in dependency order, updates ADO as it works, and commits each completed item.
-disable-model-invocation: true
 ---
 
 # Coding Skill
@@ -60,9 +59,14 @@ If required setup is missing or inconsistent, stop and ask instead of guessing.
    - Commit once that work item is complete.
 6. If a work item cannot be completed, update ADO with the blocker and stop rather than committing partial work for that item.
 
-
 ## Output
 
 - Clear status updates written back to each work item
 - One commit per completed work item
 - Explicit blocker and follow-up notes when work cannot continue
+
+### Completion Rules
+- Update status
+- Add comments summarizing work
+- Link PRs / commits
+- For bugs: include resolution details and follow-ups

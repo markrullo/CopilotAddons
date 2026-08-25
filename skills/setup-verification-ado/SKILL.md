@@ -1,7 +1,6 @@
 ---
 name: setup-verification-ado
 description: This skill isn't directly invoked by the user. It is used to set up the environment and provide context for other skills.
-disable-model-invocation: true
 ---
 
 # Setup Verification ADO Skill

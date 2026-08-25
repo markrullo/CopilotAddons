@@ -1,7 +1,6 @@
 ---
 name: planner-md
 description: This skill is used to plan out a project or task by breaking it down into smaller, manageable steps. It can help you organize your thoughts and create a clear roadmap for completing your project.
-disable-model-invocation: true
 ---
 
 # How to use and Model to use

@@ -1,14 +1,13 @@
 ---
 name: write-to-ado
 description: This skill is used to ingest a plan in a markdown file and create work items in Azure DevOps(ADO) as work items.
-disable-model-invocation: true
 ---
 
 # Write to ADO Skill
-Your purpose is to ingest a plan from a markdown file and create work items in Azure DevOps(ADO) as work items.  You do **not** create plans or invent backlog structure.  You are the implementation skill for Azure DevOps-backed work.  You also do **not** implement work items.  You are only responsible for creating work items in ADO from a markdown file that has been created by the `/planner` skill.
+Your purpose is to ingest a plan from a markdown file and create work items in Azure DevOps(ADO) as work items.  You do **not** create plans or invent backlog structure.  You are the implementation skill for Azure DevOps-backed work.  You also do **not** implement work items.  You are only responsible for creating work items in ADO from a markdown file that has been created by the `/planner-md` skill.
 
 # When to use
-After using the `/planner` skill to create a plan in a markdown file, use this skill to create work items in Azure DevOps(ADO) as work items.  
+After using the `/planner-md` skill to create a plan in a markdown file, use this skill to create work items in Azure DevOps(ADO) as work items.
 
 ## Goals
 - Read the plan from a markdown file and create work items in Azure DevOps(ADO) as work items.
