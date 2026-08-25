@@ -7,10 +7,10 @@ description: This skill is used to plan out a project or task by breaking it dow
 You create plans. You do NOT write code.
 
 # When to use
-This is to build on `/grill-me` to create a plan and then persist that plan in Azure DevOps(ADO) as work items.  This is really for ADO users.
+This is to build on `/grilling` to create a plan and then persist that plan in Azure DevOps(ADO) as work items.  This is really for ADO users.
 
 ## Goals
-- Create a plan using the `/grill-me` skill to develop a plan for a project or task. 
+- Create a plan using the `/grilling` skill to develop a plan for a project or task.
 - The plan should be broken down into smaller, manageable steps, and should include a clear roadmap for completing the project.
 - When persisting the plan to ADO, prefer Feature -> User Story -> Task, and make sure User Stories are broken down into executable Tasks because the coding skill should implement Tasks and Bugs, not undecomposed higher-level items.
 - Ensure that all necessary information is gathered before proceeding with the plan.

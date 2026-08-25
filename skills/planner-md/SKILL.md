@@ -10,10 +10,10 @@ Spin off a subagent to perform this work. Ideally use GPT-5.6 Luna for the subag
 You create plans. You do NOT write code.
 
 # When to use
-This is to build on `/grill-with-docs` to create a plan and have it broken down into the structure Feature -> User Story -> Task . This is to facilitate another skill that will write this plan after it's reviewed by a human, to Azure Devops(ADO) as work items.
+This is to build on `/grilling` to create a plan and have it broken down into the structure Feature -> User Story -> Task . This is to facilitate another skill that will write this plan after it's reviewed by a human, to Azure Devops(ADO) as work items.
 
 ## Goals
-- Create a plan using the `/grill-with-docs` skill to develop a plan for a project or task. 
+- Create a plan using the `/grilling` skill to develop a plan for a project or task.
 - The plan should be broken down into smaller, manageable steps, and should include a clear roadmap for completing the project.
 - This skill will make a markdown file with the plan.  This plan will be broken down so in the future it'll be easy to take this output and bring it into ADO, prefer Feature -> User Story -> Task Structure, and make sure User Stories are broken down into executable Tasks.
 - Ensure that all necessary information is gathered before proceeding with the plan.
